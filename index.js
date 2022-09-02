@@ -20,26 +20,11 @@ const wayMoreButton = document.getElementById("wayMore");
 
 wayMoreButton.addEventListener("click", wayMoreChihuahuas);
 
-let backgroundImage = document.getElementById;
-
 function wayMoreChihuahuas() {
   chihuahuaCount += 100;
   numberToAdd.innerHTML = `Number of Chihuahuas: ${chihuahuaCount}`;
   console.log(chihuahuaCount);
 }
-
-// Requirements:
-// [ ] Create an empty webpage (html, css, + javascript)
-// [ ] Add two items to the HTML:
-// [ ] A line of text with the number "0" in it
-// [ ] An image or button
-// [ ] Add interactivity
-// [ ] Every 2 seconds, the counter goes up by 1
-// [ ] On click of the image or button, the counter on the page goes up by 1
-
-const randomIndex = Math.floor(Math.random() * 11);
-
-const randomChiChiPicture = document.getElementById(`${randomIndex}`);
 
 ///////////////////***********dont alter above code************//////////////
 // console.log("randomChiPicture-->", randomChiChiPicture.innerHTML);
@@ -49,6 +34,12 @@ const randomChiChiPicture = document.getElementById(`${randomIndex}`);
 let currentImage = document.getElementById("chihuahuaContainer");
 
 function changeChiChi() {}
+
+let bodyElement = document.getElementsByTagName("body");
+
+const randomIndex = Math.floor(Math.random() * 11);
+
+const randomChiChiPicture = document.getElementById(`${randomIndex}`);
 
 // add later:
 // buy a lot of chihuahuas at once button += 5
