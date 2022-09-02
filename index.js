@@ -24,6 +24,7 @@ function wayMoreChihuahuas() {
   chihuahuaCount += 100;
   numberToAdd.innerHTML = `Number of Chihuahuas: ${chihuahuaCount}`;
   console.log(chihuahuaCount);
+  changePic();
 }
 
 ///////////////////***********dont alter above code************//////////////
