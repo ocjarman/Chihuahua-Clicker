@@ -1,1 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.hidden {
+  display: none;
+}
+
+.displayed {
+  display: block;
+}
+
+#imageHere {
+  border: 10px solid black;
+}
