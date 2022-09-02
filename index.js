@@ -31,15 +31,26 @@ function wayMoreChihuahuas() {
 
 // make a helper function to change the chihuahua pic
 
-let currentImage = document.getElementById("chihuahuaContainer");
+let chihuahuaPics = [
+  "./imagesOfChihuahuas/chi1.jpeg",
+  "/imagesOfChihuahuas/chi2.jpeg",
+  "/imagesOfChihuahuas/chi3.jpeg",
+  "/imagesOfChihuahuas/chi4.jpeg",
+  "/imagesOfChihuahuas/chi5.jpeg",
+  "/imagesOfChihuahuas/chi6.jpeg",
+  "/imagesOfChihuahuas/chi7.jpeg",
+  "/imagesOfChihuahuas/chi8.jpeg",
+  "/imagesOfChihuahuas/chi9.jpeg",
+  "/imagesOfChihuahuas/chi10.jpeg",
+  "/imagesOfChihuahuas/chi11.jpeg",
+];
 
-function changeChiChi() {}
+function changePic() {
+  const randomChi = Math.floor(Math.random() * chihuahuaPics.length);
+  document.getElementById("picToChange").src = chihuahuaPics[randomChi];
+}
 
-let bodyElement = document.getElementsByTagName("body");
-
-const randomIndex = Math.floor(Math.random() * 11);
-
-const randomChiChiPicture = document.getElementById(`${randomIndex}`);
+divToBeClicked.addEventListener("click", changePic);
 
 // add later:
 // buy a lot of chihuahuas at once button += 5
