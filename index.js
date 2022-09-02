@@ -34,16 +34,16 @@ function wayMoreChihuahuas() {
 
 let chihuahuaPics = [
   "./imagesOfChihuahuas/chi1.jpeg",
-  "/imagesOfChihuahuas/chi2.jpeg",
-  "/imagesOfChihuahuas/chi3.jpeg",
-  "/imagesOfChihuahuas/chi4.jpeg",
-  "/imagesOfChihuahuas/chi5.jpeg",
-  "/imagesOfChihuahuas/chi6.jpeg",
-  "/imagesOfChihuahuas/chi7.jpeg",
-  "/imagesOfChihuahuas/chi8.jpeg",
-  "/imagesOfChihuahuas/chi9.jpeg",
-  "/imagesOfChihuahuas/chi10.jpeg",
-  "/imagesOfChihuahuas/chi11.jpeg",
+  "./imagesOfChihuahuas/chi2.jpeg",
+  "./imagesOfChihuahuas/chi3.jpeg",
+  "./imagesOfChihuahuas/chi4.jpeg",
+  "./imagesOfChihuahuas/chi5.jpeg",
+  "./imagesOfChihuahuas/chi6.jpeg",
+  "./imagesOfChihuahuas/chi7.jpeg",
+  "./imagesOfChihuahuas/chi8.jpeg",
+  "./imagesOfChihuahuas/chi9.jpeg",
+  "./imagesOfChihuahuas/chi10.jpeg",
+  "./imagesOfChihuahuas/chi11.jpeg",
 ];
 
 function changePic() {
