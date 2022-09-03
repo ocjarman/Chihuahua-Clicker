@@ -1,16 +1,13 @@
 /* eslint-disable quotes */
 // when chihuahua img clicked, add one to num chihuahuas
 const chihuahuaPics = [
-  "./imagesOfChihuahuas/chi1.jpeg",
   "./imagesOfChihuahuas/chi2.jpeg",
   "./imagesOfChihuahuas/chi3.jpeg",
   "./imagesOfChihuahuas/chi4.jpeg",
-  "./imagesOfChihuahuas/chi5.jpeg",
   "./imagesOfChihuahuas/chi6.jpeg",
   "./imagesOfChihuahuas/chi7.jpeg",
   "./imagesOfChihuahuas/chi8.jpeg",
   "./imagesOfChihuahuas/chi9.jpeg",
-  "./imagesOfChihuahuas/attack.jpeg",
   "./imagesOfChihuahuas/chi10.jpeg",
   "./imagesOfChihuahuas/chi11.jpeg",
   "./imagesOfChihuahuas/chi12.jpeg",
@@ -26,6 +23,9 @@ const chihuahuaPics = [
   "./imagesOfChihuahuas/chi22.jpeg",
   "./imagesOfChihuahuas/chi23.jpeg",
   "./imagesOfChihuahuas/chi24.jpeg",
+  "./imagesOfChihuahuas/chi25.jpeg",
+  "./imagesOfChihuahuas/chi26.jpeg",
+  "./imagesOfChihuahuas/chi27.jpeg",
 ];
 
 let chihuahuaCount = 0;
@@ -47,7 +47,7 @@ setInterval(moreChihuahuas, 500);
 function changePic() {
   const randomChi = Math.floor(Math.random() * chihuahuaPics.length);
   document.getElementById("picToChange").src = chihuahuaPics[randomChi];
-  if (randomChi === 9) {
+  if (randomChi === 0) {
     chihuahuaCount = 0;
     document.getElementById("attackOverlay").style.display = "block";
   } else {
