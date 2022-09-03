@@ -16,6 +16,14 @@ body {
 h1,
 h2 {
   color: rgb(104, 145, 181);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #chihuahuaContainer {
