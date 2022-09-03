@@ -1,17 +1,50 @@
+* {
+  margin: 10px;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position: center;
+  background-size: cover no-repeat;
+  color: white;
+  background: blanchedalmond;
+  margin: 20px;
 }
 
-.hidden {
-  display: none;
+h1,
+h2 {
+  color: rgb(104, 145, 181);
 }
 
-.displayed {
-  display: block;
+#chihuahuaContainer {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-#imageHere {
-  border: 10px solid black;
+#attackOverlay {
+  display: flex;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  margin-top: 10%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+}
+
+h4 {
+  display: flex;
+  overflow-wrap: anywhere;
+  max-width: 300px;
+}
+
+img {
+  border: 10px solid plum;
+  border-radius: 50%;
+  padding: 0px;
+  height: 500px;
+  width: auto;
 }
